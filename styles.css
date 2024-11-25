@@ -1,3 +1,32 @@
 body {
-  background: hotpink;
+  display: inline-flex;
+  padding: 10px 16px;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 5px;
+  background: #ffe4e4;
+  max-width: 500px;
+  max-height: 80px;
+}
+h1 {
+  width: 358px;
+  color: #de1515;
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.12px;
+}
+
+p {
+  color: rgba(222, 21, 21, 0.6);
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: -0.08px;
 }
